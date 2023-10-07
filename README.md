@@ -122,3 +122,24 @@
 > >   }
 > > ```
 
+## [Модуль sequential_search.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/sequential_search.rs)
+
+> Подключение:
+> > ```rust
+> >   mod sequential_search;
+> >   use crate::sequential_search::{linear_search};
+> > ```
+***
+> Пример использования:
+> > ```rust
+> >  fn main() {
+> >   let arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+> >   let target = &5; // Замените на элемент, который хотите найти
+> >  
+> >   match linear_search(&arr, target) {
+> >     Some(index) => println!("Элемент {} найден на позиции {}.", target, index),
+> >     None => println!("Элемент {} не найден в массиве.", target),
+> >   }
+> >  }
+> > ```
+
