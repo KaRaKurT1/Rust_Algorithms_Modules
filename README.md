@@ -9,14 +9,14 @@
 ***
 > Пример использования:
 > > ```rust
-> >       fn main() {
-> >           let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
-> >           println!("Исходный массив: {:?}", arr);
+> >   fn main() {
+> >     let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
+> >     println!("Исходный массив: {:?}", arr);
 > >         
-> >           bubble_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >     bubble_sort(&mut arr); // Замените на массив, который хотите отсортировать
 > >           
-> >           println!("Отсортированный массив: {:?}", arr);
-> >       }
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
 > > ```
 
 ## [Модуль factorial.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/factorial.rs)
