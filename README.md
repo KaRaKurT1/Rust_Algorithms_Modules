@@ -1,4 +1,4 @@
-# Rust_Algorithms_Modules - Это репозиторий с алгоритмами на ЯП Rust
+# Rust_Algorithms_Modules - Это репозиторий с алгоритмами на Rust
 
 ## [Модуль bubble_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/bubble_sort.rs)
 
