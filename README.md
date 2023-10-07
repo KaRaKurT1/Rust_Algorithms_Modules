@@ -193,3 +193,191 @@
 > >  }
 > > ```  
 
+## [Модуль insertion_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/insertion_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod insertion_sort;
+> >   use crate::insertion_sort::{insertion_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     insertion_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль selection_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/selection_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod selection_sort;
+> >   use crate::selection_sort::{selection_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![28, 422, 15, 66, 72, 19, 880];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     selection_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль cocktail_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/cocktail_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod cocktail_sort;
+> >   use crate::cocktail_sort::{cocktail_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![4, 3, 2, 1, 5, 666, 818];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     cocktail_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль shell_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/shell_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod shell_sort;
+> >   use crate::shell_sort::{shell_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![999, 374, 215, 1211, 222, 3, 2];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     shell_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль tree_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/tree_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod tree_sort;
+> >   use crate::tree_sort::{tree_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let arr = vec![22, 56, 95, 81, 248, 888, 120];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     let sorted_arr = tree_sort(&arr);
+> >           
+> >     println!("Отсортированный массив: {:?}", sorted_arr);
+> >   }
+> > ```
+
+## [Модуль heap_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/heap_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod heap_sort;
+> >   use crate::heap_sort::{heap_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![111, 4678, 1255, 12462, 2222, 1133, 90];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     heap_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль quick_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/quick_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod quick_sort;
+> >   use crate::quick_sort::{quick_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     quick_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль merge_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/merge_sort.rs)
+> Подключение:
+> > ```rust
+> >   mod merge_sort;
+> >   use crate::merge_sort::{merge_sort};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
+> >     println!("Исходный массив: {:?}", arr);
+> >         
+> >     merge_sort(&mut arr); // Замените на массив, который хотите отсортировать
+> >           
+> >     println!("Отсортированный массив: {:?}", arr);
+> >   }
+> > ```
+
+## [Модуль pre_order.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/pre_order.rs)
+> Подключение:
+> > ```rust
+> >   mod pre_order;
+> >   use crate::pre_order::{TreeNode, pre_order_traversal};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     // Создаем бинарное дерево
+> >     let mut root = TreeNode::new("F");
+> >     let mut node2 = TreeNode::new("B");
+> >     let node3 = TreeNode::new("A");
+> >     let mut node4 = TreeNode::new("D");
+> >     let node5 = TreeNode::new("C");
+> >     let node6 = TreeNode::new("E");
+> >     let mut node7 = TreeNode::new("G");
+> >     let node8 = TreeNode::new("H");
+> >     let mut node9 = TreeNode::new("I");
+> > 
+> >     node9.left = Some(Box::new(node8));
+> >     node7.right = Some(Box::new(node9));
+> >     root.right = Some(Box::new(node7));
+> >     node4.right = Some(Box::new(node6));
+> >     node4.left = Some(Box::new(node5));
+> >     node2.right = Some(Box::new(node4));
+> >     node2.left = Some(Box::new(node3));
+> >     root.left = Some(Box::new(node2));
+> >
+> >     let mut result = Vec::new();
+> >     pre_order_traversal(&Some(Box::new(root)), &mut result);
+> >
+> >     println!("Результат обхода в порядке pre-order: {:?}", result);
+> >   }
+> > ```
