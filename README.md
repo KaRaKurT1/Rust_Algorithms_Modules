@@ -21,20 +21,20 @@
 
 ## [Модуль factorial.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/factorial.rs)
 
-1. Подключение:
-```rust
-      mod factorial;
-      use crate::factorial::{factorial};
-```
+> Подключение:
+> > ```rust
+> >       mod factorial;
+> >      use crate::factorial::{factorial};
+> >```
 ---
-2. Пример использования:
-```rust
-      fn main() {
-        let n = 5; // Замените на число, для которого хотите вычислить факториал
-        let result = factorial(n);
-        println!("Факториал числа {} равен: {}", n, result);
-      }
-```
+> Пример использования:
+> > ```rust
+> >      fn main() {
+> >        let n = 5; // Замените на число, для которого хотите вычислить факториал
+> >        let result = factorial(n);
+> >        println!("Факториал числа {} равен: {}", n, result);
+> >      }
+> > ```
 
 ## [Модуль fibonacci.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/fibonacci.rs)
 
