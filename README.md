@@ -1,6 +1,6 @@
 # Инструкция к использованию модулей
 
-> Модуль bubble_sort.rs
+> [Модуль bubble_sort.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/bubble_sort.rs)
 > > Подключение:
 > > > ```rust
 > > >      mod bubble_sort;
