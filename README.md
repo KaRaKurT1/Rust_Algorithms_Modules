@@ -2,13 +2,13 @@
 
 > Модуль bubble_sort.rs
 
->> Подключение:
+> > Подключение:
  ```rust
       mod bubble_sort;
       use crate::bubble_sort::{bubble_sort};
   ```
 
->> Пример использования:
+> > Пример использования:
  ```rust
        fn main() {
          let mut arr = vec![64, 34, 25, 12, 22, 11, 90];
