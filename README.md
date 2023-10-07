@@ -23,8 +23,8 @@
 
 > Подключение:
 > > ```rust
-> >       mod factorial;
-> >       use crate::factorial::{factorial};
+> >   mod factorial;
+> >   use crate::factorial::{factorial};
 > >```
 ***
 > Пример использования:
@@ -40,8 +40,8 @@
 
 > Подключение:
 > > ```rust
-> >      mod fibonacci;
-> >      use crate::fibonacci::{fibonacci};
+> >   mod fibonacci;
+> >   use crate::fibonacci::{fibonacci};
 > > ```
 ***
 > Пример использования:
@@ -57,8 +57,8 @@
 
 > Подключение:
 > > ```rust
-> >      mod levenshtein_distance;
-> >      use crate::levenshtein_distance::{levenshtein_distance, similarity_percentage};
+> >   mod levenshtein_distance;
+> >   use crate::levenshtein_distance::{levenshtein_distance, similarity_percentage};
 > > ```
 ***
 > Пример использования:
@@ -85,8 +85,8 @@
 
 > Подключение:
 > > ```rust
-> >      mod singly_linked_list;
-> >      use crate::singly_linked_list::{LinkedList};
+> >   mod singly_linked_list;
+> >   use crate::singly_linked_list::{LinkedList};
 > > ```
 ***
 > Пример использования:
