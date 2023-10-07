@@ -29,11 +29,11 @@
 ***
 > Пример использования:
 > > ```rust
-> >      fn main() {
-> >          let n = 5; // Замените на число, для которого хотите вычислить факториал
-> >          let result = factorial(n);
-> >          println!("Факториал числа {} равен: {}", n, result);
-> >      }
+> >   fn main() {
+> >     let n = 5; // Замените на число, для которого хотите вычислить факториал
+> >     let result = factorial(n);
+> >     println!("Факториал числа {} равен: {}", n, result);
+> >   }
 > > ```
 
 ## [Модуль fibonacci.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/fibonacci.rs)
@@ -46,11 +46,11 @@
 ***
 > Пример использования:
 > > ```rust
-> >      fn main() {
-> >          let n = 10; // Замените на число, для которого хотите вычислить число Фибоначчи
-> >          let result = fibonacci(n);
-> >          println!("Число Фибоначчи для n={} равно: {}", n, result);
-> >      }
+> >   fn main() {
+> >     let n = 10; // Замените на число, для которого хотите вычислить число Фибоначчи
+> >     let result = fibonacci(n);
+> >     println!("Число Фибоначчи для n={} равно: {}", n, result);
+> >   }
 > > ```
 
 ## [Модуль levenshtein_distance.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/levenshtein_distance.rs)
@@ -91,34 +91,34 @@
 ***
 > Пример использования:
 > > ```rust
-> >      fn main() {
-> >          // Создание и заполнение списка
-> >          let mut list = LinkedList::new();
-> >          list.push(1);
-> >          list.push(2);
-> >          list.push(3);
-> >          list.push(4);
+> >   fn main() {
+> >     // Создание и заполнение списка
+> >     let mut list = LinkedList::new();
+> >     list.push(1);
+> >     list.push(2);
+> >     list.push(3);
+> >     list.push(4);
 > >      
-> >          // Вывод исходного списка
-> >          println!("Исходный список:");
-> >          let mut current = &list.head;
-> >          while let Some(node) = current {
-> >              print!("{} -> ", node.data);
-> >              current = &node.next;
-> >          }
-> >          println!("None");
+> >     // Вывод исходного списка
+> >     println!("Исходный список:");
+> >     let mut current = &list.head;
+> >     while let Some(node) = current {
+> >       print!("{} -> ", node.data);
+> >       current = &node.next;
+> >     }
+> >     println!("None");
 > >      
-> >          // Разворот списка
-> >          list.reverse();
+> >     // Разворот списка
+> >     list.reverse();
 > >      
-> >          // Вывод развернутого списка
-> >          println!("Развернутый список:");
-> >          let mut current = &list.head;
-> >          while let Some(node) = current {
-> >              print!("{} -> ", node.data);
-> >              current = &node.next;
-> >          }
-> >          println!("None");
-> >      }
+> >     // Вывод развернутого списка
+> >     println!("Развернутый список:");
+> >     let mut current = &list.head;
+> >     while let Some(node) = current {
+> >       print!("{} -> ", node.data);
+> >       current = &node.next;
+> >     }
+> >     println!("None");
+> >   }
 > > ```
 
