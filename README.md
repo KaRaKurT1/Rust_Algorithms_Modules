@@ -1,5 +1,4 @@
 # Rust_Algorithms_Modules - Это репозиторий с алгоритмами на ЯП Rust
----
 ##Модуль bubble_sort
 1. Подключение:
 ```rust
