@@ -64,19 +64,19 @@
 > Пример использования:
 > > ```rust
 > >   fn main() {
-> >      let str1 = "kitten";
-> >      let str2 = "sitting";
+> >     let str1 = "kitten";
+> >     let str2 = "sitting";
 > >
-> >      let distance = levenshtein_distance(str1, str2);
-> >      let similarity = similarity_percentage(str1, str2);
+> >     let distance = levenshtein_distance(str1, str2);
+> >     let similarity = similarity_percentage(str1, str2);
+> >    
+> >     println!(
+> >       "Расстояние Левенштейна между '{}' и '{}' равно: {}",
+> >         str1, str2, distance
+> >     );
 > >    
 > >      println!(
-> >          "Расстояние Левенштейна между '{}' и '{}' равно: {}",
-> >          str1, str2, distance
-> >      );
-> >    
-> >      println!(
-> >          "Процент совпадения между '{}' и '{}' равен: {:.2}%",
+> >        "Процент совпадения между '{}' и '{}' равен: {:.2}%",
 > >          str1, str2, similarity
 > >      );
 > >   }
@@ -133,13 +133,63 @@
 > Пример использования:
 > > ```rust
 > >  fn main() {
-> >   let arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
-> >   let target = &5; // Замените на элемент, который хотите найти
+> >    let arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+> >    let target = &5; // Замените на элемент, который хотите найти
 > >  
-> >   match linear_search(&arr, target) {
-> >     Some(index) => println!("Элемент {} найден на позиции {}.", target, index),
-> >     None => println!("Элемент {} не найден в массиве.", target),
-> >   }
+> >    match linear_search(&arr, target) {
+> >      Some(index) => println!("Элемент {} найден на позиции {}.", target, index),
+> >      None => println!("Элемент {} не найден в массиве.", target),
+> >    }
 > >  }
 > > ```
+
+## [Модуль index_sequential_search.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/index_sequential_search.rs)
+
+> Подключение:
+> > ```rust
+> >   mod index_sequential_search;
+> >   use crate::index_sequential_search::{index_sequential_search};
+> >   use std::collections::HashMap; // Нужно из-за использования хэш-таблицы
+> > ```
+***
+> Пример использования:
+> > ```rust
+> >  fn main() {
+> >    let arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+> >    let mut index: HashMap<i32, usize> = HashMap::new();
+> > 
+> >    // Создаем индекс
+> >    for (i, &value) in data.iter().enumerate() {
+> >      index.insert(value, i);
+> >    }
+> >
+> >    let target = &5; // Замените на элемент, который хотите найти
+> >
+> >    match index_sequential_search(&data, &index, target) {
+> >      Some(index) => println!("Элемент {} найден на позиции {}.", target, index),
+> >      None => println!("Элемент {} не найден в массиве.", target),
+> >    }
+> >  }
+> > ```
+
+## [Модуль binary_search;.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/binary_search.rs)
+
+> Подключение:
+> > ```rust
+> >   mod binary_search;
+> >   use crate::binary_search::{binary_search}; 
+> > ```
+***
+> Пример использования:
+> > ```rust
+> >  fn main() {
+> >    let arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+> >    let target = &5; // Замените на элемент, который хотите найти
+> >  
+> >    match binary_search(&arr, target) {
+> >      Some(index) => println!("Элемент {} найден на позиции {}.", target, index),
+> >      None => println!("Элемент {} не найден в массиве.", target),
+> >    }
+> >  }
+> > ```  
 
