@@ -1,13 +1,11 @@
 # Инструкция к использованию модулей
 
 > Модуль bubble_sort.rs
-
 > > Подключение:
  ```rust
       mod bubble_sort;
       use crate::bubble_sort::{bubble_sort};
   ```
-
 > > Пример использования:
  ```rust
        fn main() {
