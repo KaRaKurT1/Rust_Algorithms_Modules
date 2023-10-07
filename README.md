@@ -6,6 +6,7 @@
 > >      mod bubble_sort;
 > >      use crate::bubble_sort::{bubble_sort};
 > >  ```
+---
 > Пример использования:
 > > ```rust
 > >       fn main() {
