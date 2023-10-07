@@ -172,7 +172,7 @@
 > >  }
 > > ```
 
-## [Модуль binary_search;.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/binary_search.rs)
+## [Модуль binary_search.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/binary_search.rs)
 
 > Подключение:
 > > ```rust
