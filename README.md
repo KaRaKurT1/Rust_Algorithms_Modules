@@ -6,7 +6,7 @@
 > >      mod bubble_sort;
 > >      use crate::bubble_sort::{bubble_sort};
 > >  ```
-___
+***
 > Пример использования:
 > > ```rust
 > >       fn main() {
@@ -26,7 +26,7 @@ ___
 > >       mod factorial;
 > >      use crate::factorial::{factorial};
 > >```
-___
+***
 > Пример использования:
 > > ```rust
 > >      fn main() {
@@ -43,7 +43,7 @@ ___
 > >      mod fibonacci;
 > >      use crate::fibonacci::{fibonacci};
 > > ```
-___
+***
 > Пример использования:
 > > ```rust
 > >      fn main() {
@@ -60,7 +60,7 @@ ___
 > >      mod singly_linked_list;
 > >      use crate::singly_linked_list::{LinkedList};
 > > ```
-___
+***
 > Пример использования:
 > > ```rust
 > >      fn main() {
