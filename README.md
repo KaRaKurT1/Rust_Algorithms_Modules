@@ -24,7 +24,7 @@
 > Подключение:
 > > ```rust
 > >       mod factorial;
-> >      use crate::factorial::{factorial};
+> >       use crate::factorial::{factorial};
 > >```
 ***
 > Пример использования:
