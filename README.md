@@ -3,7 +3,7 @@
 > Модуль bubble_sort.rs
 
 >> Подключение:
- >>> ```rust
+ >>>```rust
       mod bubble_sort;
       use crate::bubble_sort::{bubble_sort};
   ```
