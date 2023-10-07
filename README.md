@@ -381,3 +381,75 @@
 > >     println!("Результат обхода в порядке pre-order: {:?}", result);
 > >   }
 > > ```
+
+## [Модуль in_order.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/in_order.rs)
+> Подключение:
+> > ```rust
+> >   mod in_order;
+> >   use crate::in_order::{TreeNode, in_order_traversal};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     // Создаем бинарное дерево
+> >     let mut root = TreeNode::new("F");
+> >     let mut node2 = TreeNode::new("B");
+> >     let node3 = TreeNode::new("A");
+> >     let mut node4 = TreeNode::new("D");
+> >     let node5 = TreeNode::new("C");
+> >     let node6 = TreeNode::new("E");
+> >     let mut node7 = TreeNode::new("G");
+> >     let node8 = TreeNode::new("H");
+> >     let mut node9 = TreeNode::new("I");
+> > 
+> >     node9.left = Some(Box::new(node8));
+> >     node7.right = Some(Box::new(node9));
+> >     root.right = Some(Box::new(node7));
+> >     node4.right = Some(Box::new(node6));
+> >     node4.left = Some(Box::new(node5));
+> >     node2.right = Some(Box::new(node4));
+> >     node2.left = Some(Box::new(node3));
+> >     root.left = Some(Box::new(node2));
+> >
+> >     let mut result = Vec::new();
+> >     in_order_traversal(&Some(Box::new(root)), &mut result);
+> >   }
+> > ```
+
+## [Модуль post_order.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/post_order.rs)
+> Подключение:
+> > ```rust
+> >   mod post_order;
+> >   use crate::post_order::{TreeNode, post_order_traversal};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     // Создаем бинарное дерево
+> >     let mut root = TreeNode::new("F");
+> >     let mut node2 = TreeNode::new("B");
+> >     let node3 = TreeNode::new("A");
+> >     let mut node4 = TreeNode::new("D");
+> >     let node5 = TreeNode::new("C");
+> >     let node6 = TreeNode::new("E");
+> >     let mut node7 = TreeNode::new("G");
+> >     let node8 = TreeNode::new("H");
+> >     let mut node9 = TreeNode::new("I");
+> > 
+> >     node9.left = Some(Box::new(node8));
+> >     node7.right = Some(Box::new(node9));
+> >     root.right = Some(Box::new(node7));
+> >     node4.right = Some(Box::new(node6));
+> >     node4.left = Some(Box::new(node5));
+> >     node2.right = Some(Box::new(node4));
+> >     node2.left = Some(Box::new(node3));
+> >     root.left = Some(Box::new(node2));
+> >
+> >     let mut result = Vec::new();
+> >     post_order_traversal(&Some(Box::new(root)), &mut result);
+> > 
+> >     println!("Результат обхода в порядке post-order: {:?}", result);
+> >   }
+> > ```
