@@ -453,3 +453,51 @@
 > >     println!("Результат обхода в порядке post-order: {:?}", result);
 > >   }
 > > ```
+
+## [Модуль dfs.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/dfs.rs)
+> Подключение:
+> > ```rust
+> >   mod dfs;
+> >   use crate::dfs::{Graph};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut graph = Graph::new(7);
+> >     graph.add_edge(0, 1);
+> >     graph.add_edge(0, 2);
+> >     graph.add_edge(1, 3);
+> >     graph.add_edge(1, 4);
+> >     graph.add_edge(2, 5);
+> >     graph.add_edge(2, 6);
+> >     let start_vertex = 0;
+> >     let dfs_result = graph.dfs(start_vertex);
+> >
+> >     println!("Результат обхода в глубину (DFS) начиная с вершины {}: {:?}", start_vertex, dfs_result);
+> >   }
+> > ```
+
+## [Модуль bfs.rs](https://github.com/KaRaKurT1/Rust_Algorithms_Modules/blob/main/bfs.rs)
+> Подключение:
+> > ```rust
+> >   mod bfs;
+> >   use crate::bfs::{Graph};
+> >  ```
+***
+> Пример использования:
+> > ```rust
+> >   fn main() {
+> >     let mut graph = Graph::new(7);
+> >     graph.add_edge(0, 1);
+> >     graph.add_edge(0, 2);
+> >     graph.add_edge(1, 3);
+> >     graph.add_edge(1, 4);
+> >     graph.add_edge(2, 5);
+> >     graph.add_edge(2, 6);
+> >     let start_vertex = 0;
+> >     let bfs_result = graph.bfs(start_vertex);
+> >
+> >     println!("Результат обхода в глубину (DFS) начиная с вершины {}: {:?}", start_vertex, bfs_result);
+> >   }
+> > ```
